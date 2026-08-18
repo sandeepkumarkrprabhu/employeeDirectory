@@ -23,6 +23,8 @@
     "vite": "^6.2.3"
   },
   "devDependencies": {
+    "@microsoft/sp-build-web": "^1.23.2",
+    "@rushstack/heft": "^1.2.23",
     "@types/express": "^4.17.21",
     "@types/node": "^22.14.0",
     "@types/react": "^19.2.18",
