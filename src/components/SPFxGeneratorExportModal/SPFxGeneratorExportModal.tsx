@@ -118,7 +118,7 @@ build.rig.getTasks = function () {
 };
 
 build.initialize(require('gulp'));`,
-    heft: `# heft.json (SPFx Modern Rig Configuration)
+    heft: `# config/heft.json (SPFx Modern Rig Configuration)
 {
   "$schema": "https://developer.microsoft.com/json-schemas/heft/v0/heft.schema.json",
   "eventActions": [],
@@ -127,6 +127,12 @@ build.initialize(require('gulp'));`,
       "plugin": "@microsoft/heft-web-ext-plugin"
     }
   ]
+}
+
+# config/rig.json (Rushstack Rig Package Configuration)
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rig-package/rig.schema.json",
+  "rigPackageName": "@microsoft/sp-build-web"
 }
 
 # .yo-rc.json (Yeoman SPFx Generator State)
