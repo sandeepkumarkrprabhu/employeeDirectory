@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "promptValues": {
+      "packageManager": "npm"
+    },
+    "solutionName": "pumex-employee-hub",
+    "solutionShortDescription": "Pumex Employee Hub M365 Intranet & Employee Directory",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "buildTarget": "latest",
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.18.2",
+    "libraryName": "pumex-employee-hub",
+    "libraryId": "d9e034a1-87b2-4f11-91a3-a712130e9d22",
+    "packageManager": "npm"
+  }
+}

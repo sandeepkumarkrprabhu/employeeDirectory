@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pumex-employee-hub-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pumexEmployeeHub/PumexEmployeeHubWebPart.js",
+          "manifest": "./src/webparts/pumexEmployeeHub/PumexEmployeeHubWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "localizedResources": {
+    "PumexEmployeeHubWebPartStrings": "lib/webparts/pumexEmployeeHub/loc/{locale}.js"
+  }
+}

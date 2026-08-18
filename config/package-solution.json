@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pumex-employee-hub-client-side-solution",
+    "id": "7f8842c1-3d2b-42e1-[#0078d4]-a712130e9d22",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Pumex Infotech",
+      "websiteUrl": "https://www.pumexinfotech.com",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Pumex Employee Hub M365 Intranet Web Part Solution"
+      },
+      "longDescription": {
+        "default": "Complete Microsoft 365 Employee Directory with Teams Presence, contact tools, and real-time Department Intranet Announcements."
+      },
+      "screenshot": "assets/pumex-hub-preview.png",
+      "categories": ["Communication", "People"],
+      "tags": ["Employee Directory", "Intranet", "SPFx", "Microsoft 365"]
+    },
+    "features": [
+      {
+        "title": "pumex-employee-hub Feature",
+        "description": "The feature that installs the Pumex Employee Hub web part",
+        "id": "e2c34a1-87b2-4f11-91a3-a712130e9d22",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "sharepoint/solution/pumex-employee-hub.sppkg"
+  }
+}
