@@ -1,0 +1,4 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rig-package/rig.schema.json",
+  "filePath": "node_modules/@microsoft/sp-build-web/config/rig.json"
+}
