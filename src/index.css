@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #f3f2f1;
+    color: #323130;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
+.clean-card {
+  background-color: #ffffff;
+  border: 1px solid #edebe9;
+  border-radius: 8px;
+  box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,0.132), 0 0.3px 0.9px 0 rgba(0,0,0,0.108);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.clean-card:hover {
+  border-color: #0078d4;
+}
+
+.clean-badge-success {
+  background-color: #dff6dd;
+  color: #107c10;
+}
+
+.clean-badge-notice {
+  background-color: #fff4ce;
+  color: #797673;
+}
+
+.clean-badge-critical {
+  background-color: #fde7e9;
+  color: #a80000;
+  border: 1px solid #f1707b;
+}
+
+.clean-badge-neutral {
+  background-color: #f3f2f1;
+  color: #605e5c;
+}
+

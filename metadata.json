@@ -1,0 +1,6 @@
+{
+  "name": "Pumex Employee Hub",
+  "description": "Pumex Employee Hub - Microsoft 365 Employee Directory with real-time Teams presence, email contact tools, department announcements, and SPFx publishing studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
