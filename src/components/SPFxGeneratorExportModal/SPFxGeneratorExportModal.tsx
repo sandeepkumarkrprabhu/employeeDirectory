@@ -132,7 +132,8 @@ build.initialize(require('gulp'));`,
 # config/rig.json (Rushstack Rig Package Configuration)
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rig-package/rig.schema.json",
-  "rigPackageName": "@microsoft/sp-build-web"
+  "rigPackageName": "@microsoft/sp-build-web",
+  "rigProfile": "default"
 }
 
 # .yo-rc.json (Yeoman SPFx Generator State)
