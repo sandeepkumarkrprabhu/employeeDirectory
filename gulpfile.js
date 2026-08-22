@@ -1,4 +1,5 @@
-'use strict';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
 
 const build = require('@microsoft/sp-build-web');
 
@@ -12,3 +13,4 @@ build.rig.getTasks = function () {
 };
 
 build.initialize(require('gulp'));
+
